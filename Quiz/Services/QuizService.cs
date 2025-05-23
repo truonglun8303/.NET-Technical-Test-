@@ -10,9 +10,9 @@ namespace Quiz.Services
     {
         private readonly List<Question> questions = new List<Question>
         {
-            new Question { Id = 1, QuestionText = "What is 2 + 2?", Options = new List<string> { "3", "4", "5", "6" }, CorrectAnswer = 1 },
-            new Question { Id = 2, QuestionText = "Capital of France?", Options = new List<string> { "London", "Berlin", "Paris", "Madrid" }, CorrectAnswer = 2 },
-            new Question { Id = 3, QuestionText = "What color is the sky?", Options = new List<string> { "Green", "Blue", "Red", "Yellow" }, CorrectAnswer = 1 }
+            new Question { Id = 1, QuestionText = "Bác Hồ sinh ngày mấy? ^^", Options = new List<string> { "15/09/1890", "19/05/1890", "29/05/1890", "19/04/1890" }, CorrectAnswer = 1 },
+            new Question { Id = 2, QuestionText = "1 + 1 = ?", Options = new List<string> { "3", "4", "2", "5" }, CorrectAnswer = 2 },
+            new Question { Id = 3, QuestionText = "Anh Dev có đẹp trai không ? ^^", Options = new List<string> { "Kết quả là 2", "Cóoo", "Kết quả giống 1", "Kết quả chắc chắn là 2" }, CorrectAnswer = 1 }
         };
 
         private List<QuizResult> results = new List<QuizResult>();
